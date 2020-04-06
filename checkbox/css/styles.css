@@ -3,15 +3,12 @@ html {
 }
 
 body {
-    background-color: white;
     text-align: center;
     margin: 0;
     font-size: 7vw;
     font-family: 'Oswald';
     font-weight: bold;
-    background-image: url(../time.jpg);
-    background-repeat:repeat;
-    background-size:cover;
+    background-image: linear-gradient(to right, #FFB11B, #91B493);
     padding: 0;
 }
 
