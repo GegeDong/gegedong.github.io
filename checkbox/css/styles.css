@@ -8,12 +8,12 @@ body {
     font-size: 7vw;
     font-family: 'Oswald';
     font-weight: bold;
-    background-image: linear-gradient(to right, #F6C555, #91B493);
+    background-image: linear-gradient(to right, #77969A, #6E75A4);
     padding: 0;
 }
 
 select.select{
-    background-color: #FFD689;
+    background-color: #CAEAED;
     font-size: 3vw;
 
 }
