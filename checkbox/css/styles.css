@@ -1,0 +1,26 @@
+html {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: white;
+    text-align: center;
+    margin: 0;
+    font-size: 7vw;
+    font-family: 'Oswald';
+    font-weight: bold;
+    background-image: url(../time.jpg);
+    background-repeat:no-repeat;
+    background-size:cover;
+    padding: 0;
+}
+
+select.select{
+    background-color: #91AD70;
+    font-size: 3vw;
+
+}
+
+p.check{
+    font-size: 2vw;
+}
