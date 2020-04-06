@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+
+	<!-- Head-->
+	<head>
+		<meta charset="utf-8">
+		<title>World Clock</title>
+		<link rel="stylesheet" href="css/styles.css">
+		<link href='https://fonts.googleapis.com/css?family=Oswald' rel='stylesheet'>
+		<script src="https://kit.fontawesome.com/a076d05399.js"></script>
+	</head>
+
+	<body onload="updateTimeZone()">
+		<div id="otherlocations"></div>
+		<form name="others">
+			<select size="2" name="lstCity" class="select" onchange="updateTimeZone();">
+				<option value="420" selected>Beijing
+				<option value="0">London
+				<option value="480">Tokyo
+				<option value="60">Paris
+				<option value="-660">Honolulu
+				<option value="-480">Los Angeles
+				<option value="-360">Chicago
+				<option value="-300">New York
+	  		</select>
+
+			<p class="check"> Daylight saving time
+				<input type="checkbox" name="daylightSaving" onclick="return daylightSaving_onclick()">
+	  		</p>
+
+		</form>
+
+		<script src="script.js"></script>
+	</body>
+
+</html>
