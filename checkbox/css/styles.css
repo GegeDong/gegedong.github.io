@@ -10,7 +10,7 @@ body {
     font-family: 'Oswald';
     font-weight: bold;
     background-image: url(../time.jpg);
-    background-repeat:no-repeat;
+    background-repeat:repeat;
     background-size:cover;
     padding: 0;
 }
