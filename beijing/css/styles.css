@@ -1,0 +1,38 @@
+html {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: white;
+    text-align: center;
+    margin: 0;
+    font-size: 12vw;
+    font-family: 'Oswald';
+    font-weight: bold;
+    background-image: url(../time.jpg);
+    background-repeat:no-repeat;
+    background-size:cover;
+    padding: 0;
+    color:red;
+
+}
+
+#table{
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+}
+.hrow {
+font-weight:bold;
+
+}
+.hrow td{
+padding-top: 20px;
+width: 140px;
+color:black;
+margin: auto;
+text-align: center;
+display: inline-block;
+font-size: 5vw;
+text-align:left;
+}
