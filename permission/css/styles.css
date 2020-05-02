@@ -1,0 +1,91 @@
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body {
+    background-color: #4A593D;
+}
+
+.container {
+    width: 850px;
+    margin: 40px auto;
+    padding: 50px;
+    background-color: #B5CAA0;
+}
+
+h1, h3{
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.2em;
+}
+
+p, li{
+  font-family: 'MS Sans Serif', Geneva, sans-serif;
+  line-height: 1.5em;
+}
+
+img {
+  width: 100%;
+  display:block;
+  border-radius: 25px;
+  margin-top: 10px;
+}
+
+figure {
+  margin: 0.8em 0 0;
+}
+
+figcaption {
+  font-size: 12px;
+  line-height: 1.2em;
+  margin: 1.0em 0 2.0em;
+}
+
+.left-align {
+  float: left;
+  width: 48%;
+}
+
+.right-align {
+  float: right;
+  width: 48%;
+}
+
+.group::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+a:link, a:visited {
+  text-decoration: none;
+  color: #4A593D;
+  border-bottom: none;
+}
+
+a:active, a:hover {
+  color: #AB3B3A;
+  border-bottom: none;
+}
+
+h1 {
+  font-size: 48px;
+  margin: 0.5em 0 0.15em;
+}
+
+h3 {
+  font-size: 30px;
+  margin: 1.0em 0 0;
+}
+
+.highlight {
+  background-color: #D9CD90;
+  padding: 0.5em 1.0em 1.0em;
+  margin-top: 2.0em;
+}
+
+ul li {
+  line-height: 2.0em;
+}
